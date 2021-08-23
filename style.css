@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 20px 0;
+}
+a:not(.navbar-nav li a){
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+a:not(.navbar-nav li a):hover{
+    color: gray;
+}
+.showcase img{
+    width: 100%;
+}
+.teacher{
+    width: 100%;
+}
+.notice{
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
+.notices i{
+    display: inline-block;
+    padding-right: 5px;
+}
+h3{
+    text-align: justify;
+}
+.about-us img{
+    width: 100%;
+    height: 400px;
+}
+.about-us{
+    background-color: whitesmoke;
+    margin: 20px 0;
+}
